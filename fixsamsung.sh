@@ -33,5 +33,5 @@ mv p fs/sdcardfs
 sed -i 's/SDCARDFS_VERSION="/ccflags-y \+= -Ifs\n\nSDCARDFS_VERSION="/g' fs/sdcardfs/Makefile
 
 # Unignore special samsung files
-sed -i '3d' .gitignore firmware/.gitignore
+sed -i '3d' firmware/.gitignore
 sed -i 's/android\/configs\/android-\*\.cfg/android\/configs\/android-\*\.cfg\n\n# Samsung\n!init\/vmm\.elf\n!firmware\/gnss_firmware\.bin/g' .gitignore
