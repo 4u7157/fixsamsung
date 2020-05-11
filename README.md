@@ -6,6 +6,6 @@ Fix samsung 3.18 Android Q kernel's.
 
 3rd ```tar -xf Kernel.tar.gz``` on top of kernel_common.
 
-4th run ```wget https://github.com/4u7157/fixsamsung/fixsamsung.sh ; chmod +x fixsamsung.sh ; ./fixsamsung.sh```
+4th run ```wget https://github.com/4u7157/fixsamsung/fixsamsung.sh ; chmod +x fixsamsung.sh ; sudo bash fixsamsung.sh```
 
 5th You're kernel is ready
